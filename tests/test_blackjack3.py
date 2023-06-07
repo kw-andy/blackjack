@@ -13,4 +13,4 @@ def test_number_of_cards1():
 
 def test_number_of_cards2():
     with pytest.raises(ValueError):
-        card_score(1)
+        card_score(2)
